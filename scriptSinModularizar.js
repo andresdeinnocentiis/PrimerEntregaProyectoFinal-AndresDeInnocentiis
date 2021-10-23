@@ -8,6 +8,21 @@ ENTREGA 06 - INCORPORAR ARRAYS
 /* ============================================================================================= */
 /* ================================ PRODUCTOS Y CARRITO ======================================== */
 /* ============================================================================================= */
+/*
+INDICE:
+linea 30: Clase producto
+linea 109: clase Zapatilla
+linea 153: clase Carrito
+linea 200: clase Catalogo
+linea 331: clase Direccion
+linea 388: clase Usuario
+linea 504: clase Cliente
+linea 577: array de objetos para Base de Datos 
+linea 696: función main para testear el script 
+*/
+
+
+
 
 
 function titleCase(str) {
@@ -637,6 +652,7 @@ function sortObj(obj, order="ASC") {
 // ========================================================================================
 
 // FUNCIONES buscarID y eliminarCliente AUN NO TESTEADAS (FALTAN RETOCAR)
+/*
 function buscarID(id) {
     let usuarioBuscado = null
     let encontrado = false
@@ -669,7 +685,7 @@ function eliminarCliente(username) {
         usuarioBuscado = `No existe ningún usuario con el username ${username}`
     }
 }
-
+*/
 // ===================================================================================================
 
 
